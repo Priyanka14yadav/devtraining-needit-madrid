@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Needit1" max_length="40" name="x_58872_needit_needit1" type="collection">
+        <element label="Requested for" max_length="32" name="u_requestedfor" reference="sc_cat_dt_app_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="When Needed" max_length="40" name="u_whenneeded" type="glide_date_time"/>
+    </element>
+</database>
